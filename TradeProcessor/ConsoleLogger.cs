@@ -8,9 +8,9 @@ namespace TradeProcessor
 {
     public class ConsoleLogger
     {
-        public void writeLog(string msg)
+        public void writeLog(string message)
         {
-            System.Console.WriteLine(msg);
+            System.Console.WriteLine(message);
         }
     }
 }
